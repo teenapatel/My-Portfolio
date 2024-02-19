@@ -70,11 +70,13 @@ nav{
 
 .header-content{
     display: flex;
-    gap: 7rem;
+    /*gap: 7rem;*/
+    justify-content : space-between;
+    
    }
    
   .header-text{
-         margin-top : 20%;
+         margin-top : 15%;
          font-size : 30px;
         }
    .header-text h1{
@@ -381,7 +383,6 @@ nav{
                        background-image: url("https://github.com/teenapatel/My-Portfolio/blob/main/Back55.jpg?raw=true"); 
                      }
               
-                     
                   .header-text{
                              /*margin-top: 6.5rem;*/
                              margin-top: 100px;
