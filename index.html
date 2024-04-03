@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+ <html lang + "en">
+<head> 
+  <title>My Portfolio Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <link rel = "stylesheet" href="Style2.css">
+    <script src="https://kit.fontawesome.com/25a4d9aed4.js" crossorigin="anonymous"></script>
+  </head>
+
+ <body>
+   <div id = "header">
+      <div class = "container">
+        <nav>
+           <a class ="logo">Portfolio </a>
+          <ul id="sidemenu">
+            <li><a href="#header"> Home </a></li>
+            <li><a href="#about"> About </a></li>
+        <!--- <li><a href="#services"> Services </a></li> --->
+            <li><a href="#portfolio"> Projects </a></li>
+            <li><a href="#contact"> Contact </a></li>
+               <i class="fas fa-regular fa-circle-xmark" onclick= "closemenu()"></i>
+          </ul>
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+         <div class="header-content">
+           <div class = "header-text">
+             <p>Software Developer Intern</p>
+             <h1> Hi, I'm <span> Teena Patel </span> </h1>
+         </div>
+         <div class="header-image"> 
+             <img src="https://github.com/teenapatel/My-Portfolio/blob/main/Back551.jpg?raw=true">
+         </div>
+       </div>
+        
+   </div>
+
+   <!------------------------about------------------------->
+   <div id = "about">
+       <div class = "container">
+          <div class = "row">
+              <div class = "about-col-1">
+                 <img src = "https://github.com/teenapatel/My-Portfolio/blob/main/webBackground1.png?raw=true">
+              </div>
+              <div class = "about-col-2">
+                 <h1 class = "sub-title"> About me</h1>
+                   <p>I am Teena Patel. I have completed B.tech with CS branch from sushila Devi Bansal College of Engineering Indore with 7.61 CGPA. I have completed my 10th and 12th qualification from School Of Excellence Dhar. I got 75% in 12th and 84.46% in 10th class.</p>
+                    
+                    <div class= "tab-titles">
+                      <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                      <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                      <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    </div> 
+                    <div class = "tab-contents active-tab" id = "skills">
+                      <ul>
+                          <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                          <li><span>Web Development</span><br>Web app Development</li>
+                          <li><span>App Development</span><br>Building Android/ios apps</li>
+                      </ul>
+                   </div>
+                   <div class = "tab-contents" id = "experience">
+                      <ul>
+                          <li><span>Dec. 2023 - Jan.2024</span><br>one month Web Development Internship at Macmet Technologies.</li>
+                          <li><span>Sept. 2023 - oct. 2023</span><br>Java Programming Internship at codesoft in online mode.</li>
+                          <li><span>July 2020 - Dec. 2020 </span><br>C/C++(basic) Training at IITBX in online mode.</li>
+                      </ul>
+                   </div>
+                   <div class = "tab-contents" id = "education">
+                      <ul>
+                          <li><span>2019-2023</span><br>B.Bech from Sushila Devi Bansal College Indore.</li>
+                          <li><span>2017-2019</span><br>Secondary Education from School of Excellence Dhar.</li>
+                          <li><span>2015-2017</span><br>High School from School of Excellence Dhar.</li>
+                      </ul>
+                   </div>
+              </div>
+          </div>
+       </div>
+   </div>
+<!-------------services---------------------->
+
+<!--<div id = "services">
+     <div class = "container">
+        <h1 class = "sub-title"> My Services </h1> 
+         <div class ="services-list">
+              <div>
+                  <i class="fa-brands fa-app-store"></i>
+                 <h2>App Developement</h2>
+                 <p> Application development services is a process to design an application or software in order to meet a particular business or personal objective, goal or process. This process consists of various stages: Planning, Analysis, Product Design, Development & Implementation, Testing, Maintenance.</p> 
+                 <a href = "#"> Learn more.. </a>
+              </div>
+
+             <div>
+                 <i class="fa-solid fa-code"></i>
+                 <h2>Web Developement</h2>
+                 <p> Web development services help create all types of web-based software and ensure great experience for web users.</p> 
+                 <a href = "#"> Learn more.. </a>
+              </div>
+
+              <div>
+                  <i class="fa-solid fa-crop"></i>
+                 <h2>UI/UX Design</h2>
+                 <p> UI predominantly concerns itself with the aesthetic elements of design, ensuring visually appealing, pixel-perfect digital solutions. On the other hand, UX design services delve into user interactions with a company, focusing on creating seamless, easy-to-navigate interfaces for an optimized user journey.</p> 
+                 <a href = "#"> Learn more.. </a>
+              </div>
+           
+          </div> 
+      </div>
+  </div> ---->
+<!----------------------portfolio--------------------->
+
+ <div id = "portfolio">
+     <div class = "container">
+        <h1 class = "sub-title"> My Work </h1> 
+           
+           <div class = "work-list">
+
+                 <div class = "work">
+                   <img src = "https://github.com/teenapatel/My-Portfolio/blob/main/Mobilepic1.jpg?raw=true">
+                   <div class = "layer"> 
+                     <h3>Web App</h3>
+                     <p>E-Health Care System <br>Contribution :- Full Contribution <br>Key Learnings :- how E-Health Care 
+                       System is an informative and interactive method that both the patients and health care professionals 
+                       can share the information with each other. </p>
+                     <a href = "#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+
+                <div class = "work">
+                  <img src = "https://github.com/teenapatel/My-Portfolio/blob/main/Mobilepic2.png?raw=true">
+                   <div class = "layer"> 
+                     <h3> Social Media App</h3>
+                     <p> I have worked on a live project LinkedYou it is a plateform which connects targeted youtubers 
+                    with tranding brands and sponsores. It was valuable experience in front end development.</p>
+                     <a href = "#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+
+                <div class = "work">
+                   <img src = "https://github.com/teenapatel/My-Portfolio/blob/main/Mobilepic3.jpg?raw=true">
+                   <div class = "layer"> 
+                    <h3>Online Shopping</h3>
+                    <p>It is a website created for users can purchase any product available on website and can pay money online.
+                      <br> Technologies are used HTML, CSS, JavaScript.</p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+
+           </div>
+            <a href="https://github.com/teenapatel?tab=repositories" class="btn"> See more</a>
+     </div>
+ </div>
+
+<!-----------------------------contact------------------------------>
+
+ <div id = "contact">
+     <div class ="container">
+          <div class ="row">
+              <div class="contact-left">
+                 <h1 class="sub-title"> Contact Me </h1>
+                  <p><i class="fa-regular fa-envelope"></i> er.teenapatel@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i> +91-9109359622</p>
+                  <div class ="social-icons">
+                     <a href ="https://www.linkedin.com/in/teena-patel-9515531bb/"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href ="https://github.com/teenapatel?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                     <a href =""><i class="fa-brands fa-instagram"></i></a>
+                  <!---<a href =""><i class="fa-brands fa-instagram"></i></a> --->
+                  </div>
+                     <a href="https://drive.google.com/file/d/1KaRnIPTqPYkXqkVonI2JOwBIB8AWsHCi/view?usp=sharing" download class="btn btn2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                      <input type = "text" name="Name" placeholder="your Name" required>
+                      <input type ="email" name="Email" placeholder="Your Email" required>
+                      <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                      <button type ="submit" class = "btn btn2">Submit</button>
+                  </form>
+                   <span id = "msg"> </span>
+              </div>
+          </div>
+     </div>
+        <div class ="copyright">
+           <p>Copyright Teena Patel <i class="fa-solid fa-copyright"></i></p>
+        </div>
+ </div>
+
+<!------------js------------>
+
+ <!--- <script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+                for(tablink of tablinks)             
+                  {
+                    tablink.classList.remove("active-link");
+                  }
+
+                 for(tabcontent of tabcontents)
+                   {
+                     tabcontent.classList.remove("active-tab");
+                   }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+ </script>
+
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwEC2Yxjrp06E62hpJztsVOk3ujcnD8XGHeFLnihEn-vCQmIRAjV2-gRsdwczYnZY6CEg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+                         msg.innerHTML= "Submitted Successfully"
+                         setTimeout(function(){
+                                    msg.innerHTML= ""
+                               }, 2000)
+                              form.reset()
+                         })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+     
+      let hey=prompt("Hello, Welcom to My Portfolio");
+      consle.log(hey); 
+
+</script>
+ 
+ <script>
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu(){
+        sidemenu.style.right="0";
+    }
+  function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script> ------>
+
+<script src="portfolio.js"></script>
+
+ </body>
+  </html>
